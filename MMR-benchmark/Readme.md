@@ -1,7 +1,5 @@
 # Evalutaion Guidelines
 
-## Evaluation
-
 ### 1. Download the dataset
 - `MMR-benchmark-images.zip` is the benchmark images.
 - `MMR-benchmark.json` is the benchmark questions.
