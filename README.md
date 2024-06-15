@@ -40,7 +40,7 @@ To comprehensively measure MLLMs' understanding capability and robustness to lea
 
 ## 🏁 Evaluation
 
-Please refer to our [MMR-benchmark](https://github.com/BAAI-DCAI/Multimodal-Robustness-Benchmark/tree/dev/MMR-benchmark) folder for more details.
+Please refer to our [evaluation](https://github.com/BAAI-DCAI/Multimodal-Robustness-Benchmark/tree/dev/evaluation) folder for more details.
 
 ## 🏆 Leaderboard
 
