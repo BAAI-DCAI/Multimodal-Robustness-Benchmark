@@ -95,6 +95,35 @@ To enhance MLLMs' understanding capability and robustness, we propose a data con
   <img src="./figure/data_collection.png" alt="Logo">
 </p>
 
+### Data generation
+- Generate conversations based on GPT-4V
+  
+```shell
+python dataset/data_generation.py \
+      --input_file /path/to/input.json \
+      --output_file /path/to/output.json \
+      --image_folder /path/to/image folder \
+      --api_key api_key
+```
+
+- Reformat the JSON
+
+```shell
+python dataset/data_reformat.py \
+      --input /path/to/input.json \
+      --output_pos /path/to/output_pos.json \
+      --output_neg /path/to/output_neg.json \
+      --output_merge /path/to/merged_output.json
+```
+
+- Filter the JSON (Optional)
+
+```shell
+python dataset/data_filtering.py \
+      --input /path/to/input.json \
+      --output /path/to/output.json
+```
+
 ## 🤖 Training
 
 - We build the model based on [Bunny](https://github.com/BAAI-DCAI/Bunny). Please refer to [Bunny](https://github.com/BAAI-DCAI/Bunny) for more details.
