@@ -40,7 +40,7 @@ To comprehensively measure MLLMs' understanding capability and robustness to lea
 
 ## 🏁 Evaluation
 
-Please refer to our [evaluation](https://github.com/FlagOpen/FlagEmbedding/tree/master/MLVU/evaluation) folder for more details.
+Please refer to our [evaluation](https://github.com/BAAI-DCAI/Multimodal-Robustness-Benchmark/tree/dev/MMR-benchmark) folder for more details.
 
 ## 🏆 Leaderboard
 
