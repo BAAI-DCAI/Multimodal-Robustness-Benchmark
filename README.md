@@ -149,7 +149,7 @@ If you find this repository helpful, please cite the paper below.
 
 ## 🧾 License
 This project utilizes certain datasets and checkpoints that are subject to their respective original licenses. Users must comply with all terms and conditions of these original licenses.
-The content of this project itself is licensed under the [Apache license 2.0](./LICENSE).
+The content of this project itself is licensed under the [cc-by-4.0](./LICENSE).
 
 ## 📫 Acknowledgement
 
