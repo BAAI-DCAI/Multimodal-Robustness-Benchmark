@@ -29,6 +29,7 @@ This repo contains the official evaluation code and dataset for the paper“Seei
 - [Leaderboard](#-leaderboard)
 - [MMR-data](#-mmr-data)
 - [Training](#-training)
+- [Quickstart](#-quickstart)
 - [Citation](#-citation)
 - [License](#-license)
 - [Acknowledgement](#-acknowledgement)
@@ -139,6 +140,64 @@ python dataset/data_filtering.py \
 | [Bunny-MMR-3B](https://huggingface.co/AI4VR/Bunny-MMR-3B) | [siglip-so400m-patch14-384](https://huggingface.co/google/siglip-so400m-patch14-384) | [microsoft/phi-2](https://huggingface.co/microsoft/phi-2)    |    5e-4     | [bunny-pretrain-phi-2-siglip](https://huggingface.co/BAAI/bunny-pretrain-phi-2-siglip) |
 | [Bunny-MMR-4B](https://huggingface.co/AI4VR/Bunny-MMR-4B) | [siglip-so400m-patch14-384](https://huggingface.co/google/siglip-so400m-patch14-384) | [microsoft/Phi-3-mini-4k-instruct](https://huggingface.co/microsoft/Phi-3-mini-4k-instruct) |    1e-3     | [bunny-pretrain-phi-3-siglip](https://huggingface.co/BoyaWu10/bunny-pretrain-phi-3-siglip) |
 | [Bunny-MMR-8B](https://huggingface.co/AI4VR/Bunny-MMR-8B) | [siglip-so400m-patch14-384](https://huggingface.co/google/siglip-so400m-patch14-384) | [meta-llama/Meta-Llama-3-8B-Instruct](https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct) |    1e-3     | [bunny-pretrain-llama3-8b-siglip](https://huggingface.co/BoyaWu10/bunny-pretrain-llama3-8b-siglip) |
+
+## 🌟 Quickstart
+
+Here we show a code snippet to show you how to use the model with transformers.
+
+Before running the snippet, you need to install the following dependencies:
+
+```shell
+pip install torch transformers accelerate pillow
+```
+
+```python
+import torch
+import transformers
+from transformers import AutoModelForCausalLM, AutoTokenizer
+from PIL import Image
+import warnings
+
+# disable some warnings
+transformers.logging.set_verbosity_error()
+transformers.logging.disable_progress_bar()
+warnings.filterwarnings('ignore')
+
+# set device
+torch.set_default_device('cpu')  # or 'cuda'
+
+offset_bos = 1 # for Bunny-MMR-8B and AI4VR/Bunny-MMR-4B
+# offset_bos = 0 for Bunny-MMR-3B
+
+# create model
+model = AutoModelForCausalLM.from_pretrained(
+    'AI4VR/Bunny-MMR-8B', # or 'AI4VR/Bunny-MMR-3B' or 'AI4VR/Bunny-MMR-4B'.
+    torch_dtype=torch.float16,
+    device_map='auto',
+    trust_remote_code=True)
+tokenizer = AutoTokenizer.from_pretrained(
+    'AI4VR/Bunny-MMR-8B', # or 'AI4VR/Bunny-MMR-3B' or 'AI4VR/Bunny-MMR-4B'.
+    trust_remote_code=True)
+
+# text prompt
+prompt = 'text prompt'
+text = f"A chat between a curious user and an artificial intelligence assistant. The assistant gives helpful, detailed, and polite answers to the user's questions. USER: <image>\n{prompt} ASSISTANT:"
+text_chunks = [tokenizer(chunk).input_ids for chunk in text.split('<image>')]
+input_ids = torch.tensor(text_chunks[0] + [-200] + text_chunks[1][offset_bos:], dtype=torch.long).unsqueeze(0)
+
+# image input
+image = Image.open('path/to/image')
+image_tensor = model.process_images([image], model.config).to(dtype=model.dtype)
+
+# generate
+output_ids = model.generate(
+    input_ids,
+    images=image_tensor,
+    max_new_tokens=100,
+    use_cache=True)[0]
+
+print(tokenizer.decode(output_ids[input_ids.shape[1]:], skip_special_tokens=True).strip())
+```
 
 ## 🔗 Citation
 If you find this repository helpful, please cite the paper below.
