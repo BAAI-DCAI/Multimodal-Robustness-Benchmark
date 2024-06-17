@@ -212,9 +212,14 @@ If you find this repository helpful, please cite the paper below.
 ```
 
 ## 🧾 License
+[![Code License](https://img.shields.io/badge/Code%20License-Apache_2.0-yellow.svg)](https://github.com/dvlab-research/MGM/blob/main/LICENSE)
+[![Data License](https://img.shields.io/badge/Data%20License-CC-By-4.0-orange.svg)](https://github.com/dvlab-research/MGM/blob/main/DATA_LICENSE)
+[![Weight License](https://img.shields.io/badge/Weight%20License-CC-By-4.0-red)](https://github.com/dvlab-research/MGM/blob/main/WEIGHT_LICENSE)
+
+The data and checkpoint are intended and licensed for research use only. They are also restricted to uses that follow the license agreement of Bunny, LLaMA, Phi-2, Phi-3, and GPT-4. The dataset is CC-BY-4.0.
 This project utilizes certain datasets and checkpoints that are subject to their respective original licenses. Users must comply with all terms and conditions of these original licenses.
-The content of this project itself is licensed under the [cc-by-4.0](./LICENSE).
 
 ## 📫 Acknowledgement
 
-We build our project based on [LLaVA](https://github.com/haotian-liu/LLaVA): Large Language and Vision Assistant.
+- The training of this work is built upon the [Bunny](https://github.com/BAAI-DCAI/Bunny): Large Language and Vision Assistant.
+- This work utilizes LLMs from [Phi-2](https://huggingface.co/microsoft/phi-2), [Phi-3](https://huggingface.co/microsoft/Phi-3-mini-4k-instruct), and [llama3-8b](https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct).
