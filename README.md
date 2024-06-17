@@ -4,13 +4,13 @@
 
 <p align="center">
     <a href="https://arxiv.org/abs/2402.11530">
-        <img alt="Build" src="http://img.shields.io/badge/cs.CV-arXiv%3A2402.11530-B31B1B.svg">
+        <img alt="Build" src="http://img.shields.io/badge/Paper-arXiv%3A2402.11530-B31B1B.svg">
     </a>
     <a href="https://huggingface.co/datasets/BAAI/Multimodal-Robustness-Benchmark">
         <img alt="Build" src="https://img.shields.io/badge/🤗 Dataset-MMR Benchmark-yellow">
     </a>
     <a href="https://law1223.github.io/Multimodal-Robustness-Benchmark/">
-        <img alt="Build" src="https://img.shields.io/badge/🤖 Online-Demo-blue">
+        <img alt="Build" src="https://img.shields.io/badge/🤖 Project-Demo-blue">
     </a>
 </p>
 
@@ -19,7 +19,7 @@ This repo contains the official evaluation code and dataset for the paper“Seei
 ## 📢 News and Updates
 
 * 2024.06.xx 🔥 **Checkpoints are released!** Check more details in HuggingFace: [Bunny-MMR-3B](https://huggingface.co/AI4VR/Bunny-MMR-3B), [Bunny-MMR-4B](https://huggingface.co/AI4VR/Bunny-MMR-4B), [Bunny-MMR-8B](https://huggingface.co/AI4VR/Bunny-MMR-8B).
-* 2024.06.xx 🔥 **ArXiv paper is released!** Check more details in ArXiv.
+* 2024.06.xx 🔥 **arXiv paper is released!** Check more details in arXiv.
 * 2024.06.17 🔥 **Demo is available.** Check more details in [link](https://law1223.github.io/Multimodal-Robustness-Benchmark/). Welcome everyone to try it!
 * 2024.06.13 🔥 **MMR benchmark and MMR-data are released!** Check more details in [HuggingFace](https://huggingface.co/datasets/BAAI/Multimodal-Robustness-Benchmark).
 
