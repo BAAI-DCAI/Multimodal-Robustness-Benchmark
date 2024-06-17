@@ -4,10 +4,13 @@
 
 <p align="center">
     <a href="https://arxiv.org/abs/2402.11530">
-            <img alt="Build" src="http://img.shields.io/badge/cs.CV-arXiv%3A2402.11530-B31B1B.svg">
+        <img alt="Build" src="http://img.shields.io/badge/cs.CV-arXiv%3A2402.11530-B31B1B.svg">
     </a>
     <a href="https://huggingface.co/datasets/BAAI/Multimodal-Robustness-Benchmark">
         <img alt="Build" src="https://img.shields.io/badge/🤗 Dataset-MMR Benchmark-yellow">
+    </a>
+    <a href="https://law1223.github.io/Multimodal-Robustness-Benchmark/">
+        <img alt="Build" src="https://img.shields.io/badge/🤖 Demo-blue">
     </a>
 </p>
 
