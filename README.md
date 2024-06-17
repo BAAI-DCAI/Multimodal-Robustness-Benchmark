@@ -222,4 +222,4 @@ This project utilizes certain datasets and checkpoints that are subject to their
 ## 📫 Acknowledgement
 
 - The training of this work is built upon the [Bunny](https://github.com/BAAI-DCAI/Bunny): Large Language and Vision Assistant.
-- This work utilizes LLMs from [Phi-2](https://huggingface.co/microsoft/phi-2), [Phi-3](https://huggingface.co/microsoft/Phi-3-mini-4k-instruct), and [llama3-8b](https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct).
+- This work utilizes LLMs from [Phi-2](https://huggingface.co/microsoft/phi-2), [Phi-3](https://huggingface.co/microsoft/Phi-3-mini-4k-instruct), and [Llama-3-8B](https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct).
