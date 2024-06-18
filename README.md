@@ -217,8 +217,8 @@ If you find this repository helpful, please cite the paper below.
 [![Data License](https://img.shields.io/badge/Data%20License-CC--BY--4.0-orange.svg)](./LICENSE)
 [![Weight License](https://img.shields.io/badge/Weight%20License-CC--BY--4.0-red.svg)](./LICENSE)
 
-The data and checkpoint are intended and licensed for research use only. They are also restricted to uses that follow the license agreement of Bunny, LLaMA, Phi-2, Phi-3, and GPT-4. The dataset is CC-BY-4.0.
-This project utilizes certain datasets and checkpoints that are subject to their respective original licenses. Users must comply with all terms and conditions of these original licenses.
+The project employs specific datasets and checkpoints that are governed by their original licenses. Users must adhere to all terms and conditions outlined in these licenses. The checkpoints are restricted to uses that comply with the license agreements of Bunny, LLaMA 3, Phi-2, Phi-3, and GPT-4. The dataset is provided under the CC-BY-4.0 license.
+
 
 ## 📫 Acknowledgement
 
