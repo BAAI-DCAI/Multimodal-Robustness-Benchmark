@@ -4,24 +4,27 @@
 
 <p align="center">
     <a href="http://arxiv.org/abs/2406.10638">
-        <img alt="Build" src="http://img.shields.io/badge/Paper-arXiv%3A2406.10638-B31B1B.svg">
+        <img alt="Paper" src="http://img.shields.io/badge/Paper-arXiv%3A2406.10638-B31B1B.svg">
     </a>
     <a href="https://huggingface.co/datasets/BAAI/Multimodal-Robustness-Benchmark">
-        <img alt="Build" src="https://img.shields.io/badge/🤗 Dataset-MMR Benchmark-yellow">
-    </a>
-    <a href="https://huggingface.co/AI4VR/Bunny-MMR-3B">
-        <img alt="Build" src="https://img.shields.io/badge/🤗 Model-Bunny--MMR--3B-yellow">
-    </a>
-    <a href="https://huggingface.co/AI4VR/Bunny-MMR-4B">
-        <img alt="Build" src="https://img.shields.io/badge/🤗 Model-Bunny--MMR--4B-yellow">
-    </a>
-    <a href="https://huggingface.co/AI4VR/Bunny-MMR-8B">
-        <img alt="Build" src="https://img.shields.io/badge/🤗 Model-Bunny--MMR--8B-yellow">
+        <img alt="Dataset" src="https://img.shields.io/badge/🤗%20Dataset-MMR%20Benchmark-yellow">
     </a>
     <a href="http://mmr.dataoptim.org/">
-        <img alt="Build" src="https://img.shields.io/badge/🤖 Project-Demo-blue">
+        <img alt="Project Demo" src="https://img.shields.io/badge/🤖%20Project-Demo-blue">
     </a>
 </p>
+<p align="center">
+    <a href="https://huggingface.co/AI4VR/Bunny-MMR-3B">
+        <img alt="Model Bunny-MMR-3B" src="https://img.shields.io/badge/🤗%20Model-Bunny--MMR--3B-yellow">
+    </a>
+    <a href="https://huggingface.co/AI4VR/Bunny-MMR-4B">
+        <img alt="Model Bunny-MMR-4B" src="https://img.shields.io/badge/🤗%20Model-Bunny--MMR--4B-yellow">
+    </a>
+    <a href="https://huggingface.co/AI4VR/Bunny-MMR-8B">
+        <img alt="Model Bunny-MMR-8B" src="https://img.shields.io/badge/🤗%20Model-Bunny--MMR--8B-yellow">
+    </a>
+</p>
+
 
 
 This repo contains the official evaluation code and dataset for the paper“Seeing Clearly, Answering Incorrectly: A Multimodal Robustness Benchmark for Evaluating MLLMs on Leading Questions”.
