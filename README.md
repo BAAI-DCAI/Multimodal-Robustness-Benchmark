@@ -10,7 +10,7 @@
         <img alt="Build" src="https://img.shields.io/badge/🤗 Dataset-MMR Benchmark-yellow">
     </a>
     <a href="https://huggingface.co/AI4VR/Bunny-MMR-3B">
-        <img alt="Build" src="https://img.shields.io/badge/🤗 Model-Bynn-MMR-3B-yellow">
+        <img alt="Build" src="https://img.shields.io/badge/🤗 Model-Bunny-MMR-3B-yellow">
     </a>
     <a href="http://mmr.dataoptim.org/">
         <img alt="Build" src="https://img.shields.io/badge/🤖 Project-Demo-blue">
