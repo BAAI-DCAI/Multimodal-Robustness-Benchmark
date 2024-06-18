@@ -9,7 +9,7 @@
     <a href="https://huggingface.co/datasets/BAAI/Multimodal-Robustness-Benchmark">
         <img alt="Build" src="https://img.shields.io/badge/🤗 Dataset-MMR Benchmark-yellow">
     </a>
-    <a href="https://law1223.github.io/Multimodal-Robustness-Benchmark/">
+    <a href="http://mmr.dataoptim.org/">
         <img alt="Build" src="https://img.shields.io/badge/🤖 Project-Demo-blue">
     </a>
 </p>
