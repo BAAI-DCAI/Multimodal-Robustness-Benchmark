@@ -203,11 +203,12 @@ print(tokenizer.decode(output_ids[input_ids.shape[1]:], skip_special_tokens=True
 If you find this repository helpful, please cite the paper below.
 
 ```bibtex
-@article{he2024bunny,
-      title={Efficient Multimodal Learning from Data-centric Perspective}, 
-      author={He, Muyang and Liu, Yexin and Wu, Boya and Yuan, Jianhao and Wang, Yueze and Huang, Tiejun and Zhao, Bo},
-      journal={arXiv preprint arXiv:2402.11530},
-      year={2024}
+@misc{liu2024seeing,
+    title={Seeing Clearly, Answering Incorrectly: A Multimodal Robustness Benchmark for Evaluating MLLMs on Leading Questions},
+    author={Yexin Liu and Zhengyang Liang and Yueze Wang and Muyang He and Jian Li and Bo Zhao},
+    year={2024},
+    eprint={2406.10638},
+    archivePrefix={arXiv},
 }
 ```
 
