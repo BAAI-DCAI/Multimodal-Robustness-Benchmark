@@ -12,6 +12,12 @@
     <a href="https://huggingface.co/AI4VR/Bunny-MMR-3B">
         <img alt="Build" src="https://img.shields.io/badge/🤗 Model-Bunny-MMR-3B-yellow">
     </a>
+    <a href="https://huggingface.co/AI4VR/Bunny-MMR-4B">
+        <img alt="Build" src="https://img.shields.io/badge/🤗 Model-Bunny-MMR-4B-yellow">
+    </a>
+    <a href="https://huggingface.co/AI4VR/Bunny-MMR-8B">
+        <img alt="Build" src="https://img.shields.io/badge/🤗 Model-Bunny-MMR-8B-yellow">
+    </a>
     <a href="http://mmr.dataoptim.org/">
         <img alt="Build" src="https://img.shields.io/badge/🤖 Project-Demo-blue">
     </a>
