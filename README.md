@@ -19,7 +19,7 @@ This repo contains the official evaluation code and dataset for the paper“Seei
 ## 📢 News and Updates
 
 * 2024.06.18 🔥 **Checkpoints are released!** Check more details in HuggingFace: [Bunny-MMR-3B](https://huggingface.co/AI4VR/Bunny-MMR-3B), [Bunny-MMR-4B](https://huggingface.co/AI4VR/Bunny-MMR-4B), [Bunny-MMR-8B](https://huggingface.co/AI4VR/Bunny-MMR-8B).
-* 2024.06.18 🔥 **arXiv paper is released!** Check more details in [arXiv](https://arxiv.org/abs/2406.10638).
+* 2024.06.18 🔥 **Paper is ready** Check more details in [arXiv](https://arxiv.org/abs/2406.10638).
 * 2024.06.17 🔥 **Demo is available.** Check more details in [link](https://law1223.github.io/Multimodal-Robustness-Benchmark/). Welcome everyone to try it!
 * 2024.06.13 🔥 **MMR benchmark and MMR-data are released!** Check more details in [HuggingFace](https://huggingface.co/datasets/BAAI/Multimodal-Robustness-Benchmark).
 
