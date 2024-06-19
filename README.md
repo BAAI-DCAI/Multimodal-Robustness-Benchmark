@@ -39,9 +39,9 @@ This repo contains the official evaluation code and dataset for the paper“Seei
 ## 🙌 How to Add a New Model to MMR Benchmark
 
 * If your model is on HuggingFace, please create an Issue to provide the following information:
-- Model ID
-- Chat template
-- Preferred sampling parameters
+  - Model ID
+  - Chat template
+  - Preferred sampling parameters
 
 We will then add the necessary script to our repository and handle the inference and evaluation for you.
 
