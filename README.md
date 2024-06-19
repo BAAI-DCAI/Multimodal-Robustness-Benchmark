@@ -36,6 +36,18 @@ This repo contains the official evaluation code and dataset for the paper“Seei
 * 2024.06.17 🔥 **Demo is available.** Check more details in [link](https://law1223.github.io/Multimodal-Robustness-Benchmark/). Welcome everyone to try it!
 * 2024.06.13 🔥 **MMR benchmark and MMR-data are released!** Check more details in [HuggingFace](https://huggingface.co/datasets/BAAI/Multimodal-Robustness-Benchmark).
 
+## 🙌 How to Add a New Model to MMR Benchmark
+
+* If your model is on HuggingFace, please create an Issue to provide the following information:
+- Model ID
+- Chat template
+- Preferred sampling parameters
+
+We will then add the necessary script to our repository and handle the inference and evaluation for you.
+
+* If you prefer to run inference on your model yourself or create a PR to add your model to our repository, please follow the instructions in the [evaluation](https://github.com/BAAI-DCAI/Multimodal-Robustness-Benchmark/tree/dev/evaluation) folder.
+
+
 ## 📇 Contents
 - [MMR-benchmark](#%EF%B8%8F-mmr-benchmark)
 - [Evaluation](#-evaluation)
