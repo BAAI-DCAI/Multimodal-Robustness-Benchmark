@@ -249,5 +249,5 @@ The project employs specific datasets and checkpoints that are governed by their
 
 ## 📫 Acknowledgement
 
-- The training of this work is built upon the [Bunny](https://github.com/BAAI-DCAI/Bunny): Large Language and Vision Assistant.
+- The training of this work is built upon the [Bunny: A family of lightweight multimodal models](https://github.com/BAAI-DCAI/Bunny).
 - This work utilizes LLMs from [Phi-2](https://huggingface.co/microsoft/phi-2), [Phi-3](https://huggingface.co/microsoft/Phi-3-mini-4k-instruct), and [Llama-3-8B](https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct).
