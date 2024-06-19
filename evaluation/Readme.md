@@ -1,24 +1,24 @@
 # Evalutaion Guidelines
 
 ### 1. Download the dataset
-- `MMR-benchmark-images.zip` is the benchmark images.
-- `MMR-benchmark.json` is the benchmark questions.
+- `MMR-benchmark-images.zip` is the benchmark image.
+- `MMR-benchmark.json` is the benchmark question.
 
-### 2. Run the inference code to get the answer results
+### 2. Run the inference code to get the response
 - `evaluatoin` folder is the code to inference MMR-benchmark, including examples of 6 closed-source models and 12 open-source models.
 - `evaluatoin/model_vqa_mmr.py` is the general inference code to get MMR-benchmark answers.
 - `evaluatoin/calculation_mmr.py` is the general calculation code to calculate scores.
 - `evaluatoin/mmr.sh` is a demo script to show how to use `model_vqa_mmr.py` and `calculation_mmr.py`.
-- `evaluatoin/models/calculation.py` is the code to calculate scores of the answers file.
-We provide 6 closed-source models and 12 open-source models inference code in `models` folder.
+- `evaluatoin/models/calculation.py` is the code to calculate the scores of the answers file.
+We provide 6 closed-source models and 12 open-source model inference codes in the `models` folder.
 
 #### Closed-source models
 
-For the closed-source models, please prepare your api keys, and run the inference code in `closed-source` folder.
+For the closed-source models, please prepare your API keys, and run the inference code in the `closed-source` folder.
 
 #### Open-source models
 
-For the open-source models, please download model cache first:
+For the open-source models, please download the model cache first:
 
 ##### LLaVA
 
