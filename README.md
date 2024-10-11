@@ -45,7 +45,7 @@ This repo contains the official evaluation code and dataset for the paper“Seei
 
 We will then add the necessary script to our repository and handle the inference and evaluation for you.
 
-* If you prefer to run inference on your model yourself or create a PR to add your model to our repository, please follow the instructions in the [evaluation](https://github.com/BAAI-DCAI/Multimodal-Robustness-Benchmark/tree/dev/evaluation) folder.
+* If you prefer to run inference on your model yourself or create a PR to add your model to our repository, please follow the instructions in the [evaluation](https://github.com/BAAI-DCAI/Multimodal-Robustness-Benchmark/tree/main/evaluation) folder.
 
 
 ## 📇 Contents
